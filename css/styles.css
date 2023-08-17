@@ -278,23 +278,6 @@ ul {
 .strategy-item {
   --items: 4;
 }
-/* .strategy-item::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 112px;
-  background-color: #f4f4fd;
-
-  background-size: contain;
-  margin-bottom: 8px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 64px;
-}
-
-.strategy-item:nth-child(1)::before {
-  background-image: url(../images/ante.png);
-} */
 .strategy-box {
   width: 100%;
   height: 112px;

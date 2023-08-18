@@ -3,6 +3,20 @@
     width: 768px;
   }
 
+  .header-list,
+  .header-contacts-address {
+    display: flex;
+    align-items: center;
+  }
+  .header-contacts-list {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+  .header-menu {
+    display: none;
+  }
+
   .hero-title {
     margin-bottom: 36px;
     font-size: 56px;
@@ -16,8 +30,31 @@
   .team-item {
     --items: 2;
   }
-  .team-section .container {
+  .team-section .container,
+  .customers-section .container,
+  .footer-blok .container {
     padding-left: 108px;
     padding-right: 108px;
+  }
+  .customers-list {
+    column-gap: 24px;
+  }
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+    height: 88px;
+  }
+  .footer-left {
+    margin-right: 24px;
+  }
+  .footer-form {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .footer-input {
+    width: 264px;
+  }
+  .footer-div {
+    text-align: left;
+    justify-content: flex-start;
   }
 }

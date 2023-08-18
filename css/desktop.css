@@ -2,7 +2,7 @@
   .container {
     width: 1158px;
   }
-
+  /* Header */
   .header-contacts-list {
     flex-direction: row;
     gap: 40px;

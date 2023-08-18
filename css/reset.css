@@ -1,0 +1,51 @@
+:root {
+  --accent: #4d5ae5;
+  --links-color: #2e2f42;
+  --text-color: #434455;
+  --secondary-text-color: #fff;
+  --subtitle-color: #2e2f42;
+  --footer-text: #f4f4fd;
+  --items: 3;
+  --button-color: #e7e9fc;
+}
+
+/* Base Styles */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

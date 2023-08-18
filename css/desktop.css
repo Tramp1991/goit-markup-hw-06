@@ -1,0 +1,58 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+
+  .hero-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
+  /* Strategy */
+  .strategy-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .strategy-item {
+    --items: 4;
+  }
+
+  .strategy-box {
+    display: flex;
+  }
+  .strategy-subtitle {
+    font-size: 20px;
+  }
+
+  /* Employment */
+  .employmant-section {
+    padding-bottom: 120px;
+    display: block;
+  }
+  .employment-title {
+    color: var(--subtitle-color, #2e2f42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-section .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .team-item {
+    --items: 4;
+  }
+}

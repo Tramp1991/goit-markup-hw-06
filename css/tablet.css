@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .hero-title {
+    margin-bottom: 36px;
+    font-size: 56px;
+  }
+  .strategy-item {
+    --items: 2;
+  }
+  .team-list {
+    row-gap: 64px;
+  }
+  .team-item {
+    --items: 2;
+  }
+  .team-section .container {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
